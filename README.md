@@ -59,6 +59,7 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+
 ##Usage
 Access the web application via http://localhost after starting the Flask app and ensure Nginx is configured to redirect as shown above.
 
